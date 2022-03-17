@@ -1,0 +1,42 @@
+#myform {
+	display: block;
+	border: 1px solid black;
+	padding: 25px;
+	margin:auto;
+	width: 35%;
+}
+
+
+.questions {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-column-gap: 80px;
+	grid-row-gap: 15px;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.submitbutton {
+	padding: 10px;
+	display: block;
+	text-align:center;
+}
+
+.submitbutton > button {
+	margin: 10px;
+	background-color:white;
+	font-size:20px;
+	border: 1px solid black;
+}
+
+#heading {
+	text-align:center;
+	text-decoration: underline;
+}
+
+#errors {
+	color: red;
+	text-align: center;
+	font-size:20px;
+	padding: 10px;
+}
